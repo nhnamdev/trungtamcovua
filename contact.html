@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ - Cờ Vua Thông Thái</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <h2>Cờ Vua Thông Thái</h2>
+                        </a>
+                    </div>
+                    <div class="header-search">
+                        <input type="text" placeholder="Tìm kiếm...">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="header-right">
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-wrapper">
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="program.html">Chương trình học</a></li>
+                        <li><a href="method.html">Phương pháp</a></li>
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="contact.html" class="active">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Liên hệ với chúng tôi</h1>
+            <p>Hãy để lại thông tin, chúng tôi sẽ liên hệ với bạn sớm nhất</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Thông tin liên hệ</h2>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Hotline</h3>
+                            <p>0968998610</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@covuathongthai.vn</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Địa chỉ</h3>
+                            <p>Hà Nội, Việt Nam</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Giờ làm việc</h3>
+                            <p>Thứ 2 - Thứ 7: 8:00 - 18:00</p>
+                            <p>Chủ nhật: 9:00 - 17:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Gửi thông tin đăng ký</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Họ và tên *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="childName">Tên bé</label>
+                            <input type="text" id="childName" name="childName">
+                        </div>
+                        <div class="form-group">
+                            <label for="childAge">Tuổi bé</label>
+                            <select id="childAge" name="childAge">
+                                <option value="">Chọn tuổi</option>
+                                <option value="3">3 tuổi</option>
+                                <option value="4">4 tuổi</option>
+                                <option value="5">5 tuổi</option>
+                                <option value="6">6 tuổi</option>
+                                <option value="7+">Trên 6 tuổi</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Lời nhắn</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Gửi thông tin</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Cờ Vua Thông Thái</h3>
+                    <ul>
+                        <li><a href="news.html">Tin tức</a></li>
+                        <li><a href="privacy.html">Điều khoản bảo mật</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                        <li><a href="faq.html">Câu hỏi thường gặp</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Liên hệ</h3>
+                    <p>Hotline: 0968998610</p>
+                    <p>Email: info@covuathongthai.vn</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Theo dõi chúng tôi</h3>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright 2024 Cờ Vua Thông Thái. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
