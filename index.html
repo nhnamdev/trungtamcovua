@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Trung Tâm Cờ Vua Happy Chess - Đào tạo cờ vua chuyên nghiệp cho mọi lứa tuổi. Đội ngũ huấn luyện viên giàu kinh nghiệm, phương pháp giảng dạy hiện đại." />
+  <title>Happy Chess | Trung Tâm Dạy Cờ Vua Chuyên Nghiệp</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ========== HEADER ========== -->
+  <header id="main-header">
+    <!-- Top Bar -->
+    <div class="header-topbar">
+      <div class="container">
+        <div class="topbar-inner">
+          <div class="topbar-left">
+            <span><i class="fas fa-map-marker-alt"></i> KCN Tân Hương, Xã Tân Hương, tỉnh Đồng Tháp.</span>
+            <span><i class="far fa-clock"></i> Thứ 2 – Chủ nhật: 8:00 – 20:00</span>
+          </div>
+          <div class="topbar-right">
+            <a href="#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://zalo.me/0834636373" target="_blank" aria-label="Zalo"><i
+                class="fas fa-comment-dots"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Nav -->
+    <div class="header-main" id="sticky-header">
+      <div class="container">
+        <div class="header-main-inner">
+          <!-- Logo -->
+          <div class="logo">
+            <a href="#home">
+              <div class="logo-icon"><i class="fas fa-chess"></i></div>
+              <div class="logo-text">
+                <span class="logo-title">Happy Chess</span>
+                <span class="logo-sub">Trung Tâm Cờ Vua</span>
+              </div>
+            </a>
+          </div>
+
+          <!-- Desktop Nav -->
+          <nav class="main-nav" id="main-nav">
+            <ul>
+              <li><a href="#home" class="nav-link active">Trang chủ</a></li>
+              <li><a href="#about" class="nav-link">Giới thiệu</a></li>
+              <li><a href="#services" class="nav-link">Khóa học</a></li>
+              <li><a href="#doctors" class="nav-link">Huấn luyện viên</a></li>
+              <li><a href="#testimonials" class="nav-link">Học viên</a></li>
+              <li><a href="#blog" class="nav-link">Tin tức</a></li>
+              <li><a href="#contact" class="nav-link">Liên hệ</a></li>
+            </ul>
+          </nav>
+
+          <!-- CTA -->
+          <div class="header-cta">
+            <a href="#" class="btn-phone"><i class="fas fa-phone-alt"></i> 0834 636 373</a>
+            <a href="https://zalo.me/0834636373" class="btn-primary">Liên hệ</a>
+          </div>
+
+          <!-- Mobile Toggle -->
+          <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Open menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu-overlay" id="mobile-overlay"></div>
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-header">
+      <div class="logo">
+        <div class="logo-icon"><i class="fas fa-chess"></i></div>
+        <div class="logo-text">
+          <span class="logo-title">Happy Chess</span>
+          <span class="logo-sub">Trung Tâm Cờ Vua</span>
+        </div>
+      </div>
+      <button class="mobile-menu-close" id="mobile-close"><i class="fas fa-times"></i></button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="#home">Trang chủ</a></li>
+      <li><a href="#about">Giới thiệu</a></li>
+      <li><a href="#services">Khóa học</a></li>
+      <li><a href="#doctors">Huấn luyện viên</a></li>
+      <li><a href="#testimonials">Học viên</a></li>
+      <li><a href="#blog">Tin tức</a></li>
+      <li><a href="#contact">Liên hệ</a></li>
+    </ul>
+    <a href="#appointment" class="btn-primary mobile-cta">Đặt lịch hẹn</a>
+  </div>
+
+  <main>
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero-section" id="home">
+      <div class="hero-slider" id="hero-slider">
+        <!-- Slide 1 -->
+        <div class="hero-slide active"
+          style="background-image: url('https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg');">
+          <div class="hero-overlay"></div>
+          <div class="container">
+            <div class="hero-content">
+              <span class="hero-badge animate-in">Đào tạo cờ vua chuyên nghiệp</span>
+              <h1 class="hero-title animate-in">Huấn luyện viên<br /><span class="text-accent">tận tâm &amp; chuyên
+                  nghiệp</span></h1>
+              <p class="hero-desc animate-in">Chúng tôi mang đến môi trường học cờ vua chuyên nghiệp, hiện đại và
+                thân thiện. Với đội ngũ huấn luyện viên giàu kinh nghiệm và phương pháp giảng dạy tiên tiến, sự phát
+                triển của bạn là ưu
+                tiên hàng đầu của chúng tôi.</p>
+              <div class="hero-actions animate-in">
+                <a href="#services" class="btn-primary btn-lg">Xem khóa học <i class="fas fa-arrow-right"></i></a>
+                <a href="#appointment" class="btn-outline btn-lg">Đăng ký ngay</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="hero-slide"
+          style="background-image: url('https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg');">
+          <div class="hero-overlay"></div>
+          <div class="container">
+            <div class="hero-content">
+              <span class="hero-badge animate-in">Kinh nghiệm 15+ năm</span>
+              <h1 class="hero-title animate-in">Khóa học cờ vua<br /><span class="text-accent">toàn diện &amp; hiệu
+                  quả</span></h1>
+              <p class="hero-desc animate-in">Từ cơ bản đến nâng cao, từ học viên mới đến kỳ thủ thi đấu – chúng tôi
+                đồng hành cùng bạn qua mọi giai đoạn phát triển kỹ năng cờ vua.</p>
+              <div class="hero-actions animate-in">
+                <a href="#about" class="btn-primary btn-lg">Tìm hiểu thêm <i class="fas fa-arrow-right"></i></a>
+                <a href="tel:0834636373" class="btn-outline btn-lg"><i class="fas fa-phone-alt"></i> Gọi ngay</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <div class="slider-controls">
+        <button class="slider-btn slider-prev" id="slider-prev" aria-label="Previous slide"><i
+            class="fas fa-chevron-left"></i></button>
+        <div class="slider-dots" id="slider-dots">
+          <button class="dot active" data-index="0" aria-label="Slide 1"></button>
+          <button class="dot" data-index="1" aria-label="Slide 2"></button>
+        </div>
+        <button class="slider-btn slider-next" id="slider-next" aria-label="Next slide"><i
+            class="fas fa-chevron-right"></i></button>
+      </div>
+
+      <!-- Hero Stats Bar -->
+      <div class="hero-stats">
+        <div class="container">
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-icon"><i class="fas fa-user-md"></i></div>
+              <div class="stat-info">
+                <span class="stat-num">15+</span>
+                <span class="stat-label">Năm đào tạo</span>
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-icon"><i class="fas fa-stethoscope"></i></div>
+              <div class="stat-info">
+                <span class="stat-num">50+</span>
+                <span class="stat-label">Huấn luyện viên</span>
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-icon"><i class="fas fa-smile"></i></div>
+              <div class="stat-info">
+                <span class="stat-num">5K+</span>
+                <span class="stat-label">Học viên đã đào tạo</span>
+              </div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-icon"><i class="fas fa-award"></i></div>
+              <div class="stat-info">
+                <span class="stat-num">100+</span>
+                <span class="stat-label">Giải thưởng quốc gia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES SECTION ========== -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Các khóa học cờ vua chuyên nghiệp</span>
+          <h2 class="section-title">Khóa học hàng đầu</h2>
+          <p class="section-desc">Mang đến trải nghiệm học tập đáng tin cậy với đội ngũ huấn luyện viên tận tâm, giúp
+            bạn
+            phát triển tư duy logic và kỹ năng cờ vua vượt trội.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="service-img">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Khám Thai" loading="lazy" />
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-icon-wrap">
+              <div class="service-icon"><i class="fas fa-baby"></i></div>
+            </div>
+            <div class="service-content">
+              <h3>Cờ Vua Cơ Bản</h3>
+              <p>Học các nước đi, quy tắc và chiến thuật cơ bản.</p>
+              <a href="#appointment" class="service-link">Đăng ký <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-img">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Khám Phụ Khoa" loading="lazy" />
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-icon-wrap">
+              <div class="service-icon"><i class="fas fa-female"></i></div>
+            </div>
+            <div class="service-content">
+              <h3>Cờ Vua Nâng Cao</h3>
+              <p>Chiến thuật phức tạp và kỹ thuật thi đấu chuyên sâu.</p>
+              <a href="#appointment" class="service-link">Đăng ký <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-img">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Siêu Âm" loading="lazy" />
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-icon-wrap">
+              <div class="service-icon"><i class="fas fa-x-ray"></i></div>
+            </div>
+            <div class="service-content">
+              <h3>Khai Cuộc</h3>
+              <p>Học các khai cuộc phổ biến và chiến lược mở đầu.</p>
+              <a href="#appointment" class="service-link">Đăng ký <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="0">
+            <div class="service-img">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Xét Nghiệm Tiền Sản" loading="lazy" />
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-icon-wrap">
+              <div class="service-icon"><i class="fas fa-flask"></i></div>
+            </div>
+            <div class="service-content">
+              <h3>Tàn Cuộc</h3>
+              <p>Kỹ thuật chiếu hết và xử lý các tình huống tàn cuộc.</p>
+              <a href="#appointment" class="service-link">Đăng ký <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-img">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Kế Hoạch Hóa Gia Đình" loading="lazy" />
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-icon-wrap">
+              <div class="service-icon"><i class="fas fa-hand-holding-heart"></i></div>
+            </div>
+            <div class="service-content">
+              <h3>Cờ Vua Trẻ Em</h3>
+              <p>Khóa học dành riêng cho trẻ em từ 5-12 tuổi.</p>
+              <a href="#appointment" class="service-link">Đăng ký <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-img">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Hỗ trợ sinh sản" loading="lazy" />
+              <div class="service-img-overlay"></div>
+            </div>
+            <div class="service-icon-wrap">
+              <div class="service-icon"><i class="fas fa-heartbeat"></i></div>
+            </div>
+            <div class="service-content">
+              <h3>Luyện Thi Đấu</h3>
+              <p>Chuẩn bị cho các giải đấu và thi cấp bậc.</p>
+              <a href="#appointment" class="service-link">Đăng ký <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Image Side -->
+          <div class="about-image-side" data-aos="fade-right">
+            <div class="about-img-wrap">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Bác sĩ tư vấn" class="about-main-img" />
+              <div class="about-exp-badge">
+                <div class="exp-num">15<span>+</span></div>
+                <div class="exp-text">Năm đào<br />tạo</div>
+              </div>
+              <div class="about-img-decoration">
+                <div class="deco-circle deco-1"></div>
+                <div class="deco-circle deco-2"></div>
+              </div>
+            </div>
+            <a href="https://www.tiktok.com/@buithitramy2503" class="play-btn" target="_blank" rel="noopener"
+              aria-label="Xem video">
+              <span class="play-icon"><i class="fas fa-play"></i></span>
+              <span class="play-pulse"></span>
+            </a>
+          </div>
+
+          <!-- Content Side -->
+          <div class="about-content-side" data-aos="fade-left">
+            <span class="section-subtitle">Đào tạo cờ vua &amp; phát triển tư duy</span>
+            <h2 class="section-title left">Bất ngờ với chất lượng <span class="text-accent">đào tạo cờ vua</span> của
+              chúng tôi</h2>
+            <p class="about-desc">Đồng hành cùng bạn trên hành trình phát triển kỹ năng cờ vua và tạo nền tảng cho một
+              tư duy logic vượt trội. Với hơn 15 năm kinh nghiệm trong lĩnh vực đào tạo cờ vua, chúng tôi tự hào là địa
+              chỉ
+              tin cậy của hàng nghìn học viên Việt Nam.</p>
+
+            <div class="about-features">
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <span>99% học viên hài lòng</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <span>100% cam kết chất lượng</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <span>Học phí ưu đãi, minh bạch</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <span>Tư vấn miễn phí trực tuyến</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <span>HLV chuyên nghiệp &amp; tận tâm</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                <span>Phương pháp giảng dạy hiện đại</span>
+              </div>
+            </div>
+
+            <div class="about-cta-group">
+              <div class="about-phone">
+                <div class="phone-icon-wrap"><i class="fas fa-phone-alt"></i></div>
+                <div class="phone-info">
+                  <span>Dịch vụ 24/7</span>
+                  <a href="tel:0834636373">0834 636 373</a>
+                </div>
+              </div>
+              <a href="#about" class="btn-primary">Tìm hiểu thêm <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COUNTER SECTION ========== -->
+    <section class="counter-section">
+      <div class="container">
+        <div class="counter-grid">
+          <div class="counter-item">
+            <div class="counter-icon"><i class="fas fa-comments"></i></div>
+            <div class="counter-info">
+              <h3 class="counter-num" data-target="15">0</h3><span class="counter-plus">+</span>
+              <p>Năm đào tạo</p>
+              <span class="counter-desc">Luôn đồng hành cùng học viên Việt</span>
+            </div>
+          </div>
+          <div class="counter-item">
+            <div class="counter-icon"><i class="fas fa-briefcase-medical"></i></div>
+            <div class="counter-info">
+              <h3 class="counter-num" data-target="50">0</h3><span class="counter-plus">+</span>
+              <p>Huấn luyện viên</p>
+              <span class="counter-desc">Được đào tạo bài bản trong và ngoài nước</span>
+            </div>
+          </div>
+          <div class="counter-item">
+            <div class="counter-icon"><i class="fas fa-file-medical-alt"></i></div>
+            <div class="counter-info">
+              <h3 class="counter-num" data-target="5000">0</h3><span class="counter-plus">+</span>
+              <p>Học viên đã đào tạo</p>
+              <span class="counter-desc">Tin tưởng và lựa chọn khóa học của chúng tôi</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== DOCTORS SECTION ========== -->
+    <section class="doctors-section" id="doctors">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Đội ngũ huấn luyện viên chuyên nghiệp</span>
+          <h2 class="section-title">Gặp gỡ huấn luyện viên của chúng tôi</h2>
+          <p class="section-desc">Đội ngũ huấn luyện viên giàu kinh nghiệm, tận tâm, luôn lắng nghe và đồng hành cùng
+            bạn trong
+            hành trình chinh phục cờ vua.</p>
+        </div>
+
+        <div class="doctors-grid">
+          <div class="doctor-card">
+            <div class="doctor-img">
+              <div class="doctor-avatar" style="background: linear-gradient(135deg, #0ea5e9, #0284c7);">
+                <i class="fas fa-user-md"></i>
+              </div>
+              <div class="doctor-social">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="doctor-info">
+              <h3>HLV Bùi Thị Trà My</h3>
+              <span>Huấn luyện viên trưởng</span>
+              <div class="doctor-rating">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== APPOINTMENT SECTION ========== -->
+    <section class="appointment-section" id="appointment">
+      <div class="container">
+        <div class="appointment-grid">
+          <!-- Left Content -->
+          <div class="appointment-content" data-aos="fade-right">
+            <span class="section-subtitle">Đào tạo cờ vua &amp; phát triển tư duy</span>
+            <h2 class="section-title left">Chúng tôi ở đây <span class="text-accent">vì bạn</span></h2>
+            <p>Dịch vụ đào tạo cờ vua tận tâm, đáng tin cậy và đặt nhu cầu của bạn lên hàng đầu. Hãy đăng ký ngay để
+              được tư vấn và học thử miễn phí hôm nay.</p>
+
+            <ul class="why-us-list">
+              <li><i class="fas fa-check"></i> 99% học viên hài lòng với khóa học</li>
+              <li><i class="fas fa-check"></i> 100% cam kết chất lượng đào tạo</li>
+              <li><i class="fas fa-check"></i> Học phí ưu đãi, không phát sinh</li>
+              <li><i class="fas fa-check"></i> Tư vấn miễn phí qua điện thoại</li>
+              <li><i class="fas fa-check"></i> Huấn luyện viên chuyên nghiệp 24/7</li>
+              <li><i class="fas fa-check"></i> Hơn 15 năm kinh nghiệm đào tạo</li>
+            </ul>
+
+            <a href="#contact" class="btn-primary">Liên hệ ngay <i class="fas fa-angle-right"></i></a>
+          </div>
+
+          <!-- Appointment Form -->
+          <div class="appointment-form-wrap" data-aos="fade-left">
+            <div class="form-header">
+              <div class="form-header-content">
+                <h3>Đăng ký học</h3>
+                <p>Hãy gọi cho chúng tôi</p>
+              </div>
+              <a href="tel:0834636373" class="form-phone-btn" aria-label="Gọi điện">
+                <i class="fas fa-phone-alt"></i>
+              </a>
+            </div>
+
+            <form class="appointment-form" id="appointment-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="service-select">Chọn khóa học</label>
+                  <select id="service-select" name="service">
+                    <option value="">--- Chọn khóa học ---</option>
+                    <option>Cờ Vua Cơ Bản</option>
+                    <option>Cờ Vua Nâng Cao</option>
+                    <option>Khai Cuộc</option>
+                    <option>Tàn Cuộc</option>
+                    <option>Cờ Vua Trẻ Em</option>
+                    <option>Luyện Thi Đấu</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="doctor-select">Chọn huấn luyện viên</label>
+                  <select id="doctor-select" name="doctor">
+                    <option value="">--- Chọn HLV ---</option>
+                    <option>HLV Bùi Thị Trà My</option>
+                    <option>HLV Nguyễn Văn Minh</option>
+                    <option>HLV Lê Thị Thu Hà</option>
+                    <option>HLV Phạm Quang Hùng</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group input-icon-wrap">
+                  <label for="patient-name">Họ và tên</label>
+                  <input type="text" id="patient-name" name="name" placeholder="Nguyễn Văn A" required />
+                  <i class="fal fa-user form-icon"></i>
+                </div>
+                <div class="form-group input-icon-wrap">
+                  <label for="patient-email">Địa chỉ Email</label>
+                  <input type="email" id="patient-email" name="email" placeholder="email@example.com" required />
+                  <i class="fal fa-envelope form-icon"></i>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group input-icon-wrap">
+                  <label for="patient-phone">Số điện thoại</label>
+                  <input type="tel" id="patient-phone" name="phone" placeholder="0912 345 678" required />
+                  <i class="fal fa-phone form-icon"></i>
+                </div>
+                <div class="form-group input-icon-wrap">
+                  <label for="appointment-date">Ngày hẹn</label>
+                  <input type="date" id="appointment-date" name="date" required />
+                  <i class="fal fa-calendar-alt form-icon"></i>
+                </div>
+              </div>
+
+              <button type="submit" class="btn-primary form-submit-btn" id="form-submit-btn">
+                <span class="btn-text">Đăng ký ngay</span>
+                <i class="fas fa-arrow-right"></i>
+              </button>
+
+              <div class="form-success" id="form-success">
+                <i class="fas fa-check-circle"></i>
+                <span>Cảm ơn bạn! Chúng tôi sẽ liên hệ xác nhận đăng ký sớm nhất.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS SECTION ========== -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Lời đánh giá từ học viên</span>
+          <h2 class="section-title">Học viên nói gì về chúng tôi</h2>
+          <p class="section-desc">Sự hài lòng và tin tưởng từ học viên là động lực để chúng tôi không ngừng nỗ lực
+            mang đến dịch vụ đào tạo cờ vua tốt nhất.</p>
+        </div>
+
+        <div class="testimonials-slider" id="testimonials-slider">
+          <div class="testimonials-track" id="testimonials-track">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+              <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+              <p class="testi-text">Tôi rất hài lòng với khóa học cờ vua tại đây. Huấn luyện viên nhiệt tình giải thích
+                từng
+                nước đi, phương pháp giảng dạy dễ hiểu. Nhân viên thân thiện, lớp học sạch sẽ và thoáng mát. Chắc chắn
+                sẽ
+                giới thiệu cho bạn bè.</p>
+              <div class="testi-author">
+                <div class="testi-avatar avatar-1"><i class="fas fa-user"></i></div>
+                <div class="testi-info">
+                  <h4>Nguyễn Văn An</h4>
+                  <span>Học viên – Khóa cơ bản</span>
+                  <div class="testi-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+              <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+              <p class="testi-text">Sau 6 tháng học tại đây, con tôi đã tiến bộ vượt bậc. Từ một em bé không biết gì về
+                cờ vua, giờ con đã có thể thi đấu và giành giải ba cấp quận. Cảm ơn thầy cô đã tận tâm hướng dẫn!</p>
+              <div class="testi-author">
+                <div class="testi-avatar avatar-2"><i class="fas fa-user"></i></div>
+                <div class="testi-info">
+                  <h4>Trần Thị Kim Oanh</h4>
+                  <span>Phụ huynh – Con học lớp trẻ em</span>
+                  <div class="testi-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+              <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+              <p class="testi-text">Khóa học nâng cao rất chuyên sâu và bổ ích. Thầy dạy chi tiết từng chiến thuật, phân
+                tích các ván đấu thực tế. Sau khóa học, ELO của tôi tăng 200 điểm. Rất đáng để đầu tư!</p>
+              <div class="testi-author">
+                <div class="testi-avatar avatar-3"><i class="fas fa-user"></i></div>
+                <div class="testi-info">
+                  <h4>Lê Văn Hùng</h4>
+                  <span>Học viên – Khóa nâng cao</span>
+                  <div class="testi-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="far fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 4 -->
+            <div class="testimonial-card">
+              <div class="testi-quote"><i class="fas fa-quote-left"></i></div>
+              <p class="testi-text">Trung tâm có môi trường học tập chuyên nghiệp, trang thiết bị hiện đại. Các giải đấu
+                nội bộ giúp học viên có cơ hội thực chiến. Giá cả hợp lý, không phát sinh thêm. Sẽ tiếp tục học các khóa
+                nâng cao.</p>
+              <div class="testi-author">
+                <div class="testi-avatar avatar-4"><i class="fas fa-user"></i></div>
+                <div class="testi-info">
+                  <h4>Phạm Minh Tuấn</h4>
+                  <span>Học viên – Khóa thi đấu</span>
+                  <div class="testi-stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                      class="fas fa-star"></i><i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-controls">
+          <button class="testi-btn testi-prev" id="testi-prev" aria-label="Previous"><i
+              class="fas fa-chevron-left"></i></button>
+          <div class="testi-dots" id="testi-dots"></div>
+          <button class="testi-btn testi-next" id="testi-next" aria-label="Next"><i
+              class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== BLOG SECTION ========== -->
+    <section class="blog-section" id="blog">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Cập nhật tin tức cờ vua</span>
+          <h2 class="section-title">Tin tức mới nhất</h2>
+          <p class="section-desc">Cập nhật những thông tin về cờ vua, xu hướng đào tạo và các giải đấu với những thông
+            tin
+            nhanh chóng và đáng tin cậy.</p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-img">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Khám thai" loading="lazy" />
+              <div class="blog-date-badge">
+                <span class="blog-day">15</span>
+                <span>Th3 2025</span>
+              </div>
+              <div class="blog-category">Cờ vua cơ bản</div>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span><i class="far fa-folder"></i> Kỹ năng cờ vua</span>
+                <span><i class="far fa-user"></i> HLV Bùi Thị Trà My</span>
+              </div>
+              <h3><a href="#">10 điều người mới chơi cờ vua cần biết</a></h3>
+              <a href="#" class="blog-read-more">Đọc thêm <i class="far fa-long-arrow-alt-right"></i></a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-img">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Điều trị hiếm muộn" loading="lazy" />
+              <div class="blog-date-badge">
+                <span class="blog-day">08</span>
+                <span>Th3 2025</span>
+              </div>
+              <div class="blog-category">Chiến thuật</div>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span><i class="far fa-folder"></i> Nâng cao</span>
+                <span><i class="far fa-user"></i> HLV Nguyễn Minh</span>
+              </div>
+              <h3><a href="#">Chiến thuật tấn công và phòng thủ hiệu quả</a></h3>
+              <a href="#" class="blog-read-more">Đọc thêm <i class="far fa-long-arrow-alt-right"></i></a>
+            </div>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-img">
+              <img src="https://www.eduoka.com/uploads/0000/17/2024/05/06/trung-tam-day-co-vua-quan-11.jpg"
+                alt="Sức khỏe phụ nữ" loading="lazy" />
+              <div class="blog-date-badge">
+                <span class="blog-day">01</span>
+                <span>Th3 2025</span>
+              </div>
+              <div class="blog-category">Giải đấu</div>
+            </div>
+            <div class="blog-content">
+              <div class="blog-meta">
+                <span><i class="far fa-folder"></i> Thi đấu</span>
+                <span><i class="far fa-user"></i> HLV Lê Hùng</span>
+              </div>
+              <h3><a href="#">Chuẩn bị tâm lý cho giải đấu cờ vua</a></h3>
+              <a href="#" class="blog-read-more">Đọc thêm <i class="far fa-long-arrow-alt-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT SECTION ========== -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info-side">
+            <span class="section-subtitle">Liên hệ với chúng tôi</span>
+            <h2 class="section-title left">Chúng tôi sẵn sàng<br /><span class="text-accent">lắng nghe bạn</span></h2>
+
+            <div class="contact-items">
+              <div class="contact-item">
+                <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="contact-item-info">
+                  <h4>Địa chỉ phòng khám</h4>
+                  <p>KCN Tân Hương, Xã Tân Hương, tỉnh Đồng Tháp.</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon"><i class="fas fa-phone-alt"></i></div>
+                <div class="contact-item-info">
+                  <h4>Điện thoại</h4>
+                  <p><a href="tel:0834636373">0834 636 373</a></p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+                <div class="contact-item-info">
+                  <h4>Email</h4>
+                  <p><a href="mailto:info@happychess.vn">info@happychess.vn</a></p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon"><i class="far fa-clock"></i></div>
+                <div class="contact-item-info">
+                  <h4>Giờ làm việc</h4>
+                  <p>Thứ 2 – Chủ nhật: 8:00 – 20:00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-social">
+              <a href="#" class="social-btn" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-btn" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+              <a href="https://zalo.me/0834636373" class="social-btn" aria-label="Zalo"><i
+                  class="fas fa-comment-dots"></i></a>
+            </div>
+          </div>
+
+          <!-- Map Placeholder -->
+          <div class="contact-map-side">
+            <div class="map-placeholder">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.1775823499494!2d106.68232!3d10.79506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528d7b9978783%3A0xba62acf59fbb0060!2sNguy%E1%BB%85n%20Th%E1%BB%8B%20Minh%20Khai%2C%20Qu%E1%BA%ADn%203%2C%20Th%C3%A0nh%20ph%E1%BB%91%20H%E1%BB%93%20Ch%C3%AD%20Minh!5e0!3m2!1svi!2svn!4v1699999999999!5m2!1svi!2svn"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" title="Bản đồ Sản Phụ Khoa Happy">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Brand -->
+          <div class="footer-col footer-brand">
+            <div class="footer-logo">
+              <div class="logo-icon"><i class="fas fa-chess"></i></div>
+              <div class="logo-text">
+                <span class="logo-title">Happy Chess</span>
+                <span class="logo-sub">Trung Tâm Cờ Vua</span>
+              </div>
+            </div>
+            <p>Đồng hành cùng học viên Việt Nam trên hành trình phát triển kỹ năng cờ vua và tư duy logic trong suốt hơn
+              15
+              năm qua.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+              <a href="https://zalo.me/0834636373" aria-label="Zalo"><i class="fas fa-comment-dots"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Liên kết nhanh</h4>
+            <ul class="footer-links">
+              <li><a href="#home"><i class="fas fa-chevron-right"></i> Trang chủ</a></li>
+              <li><a href="#about"><i class="fas fa-chevron-right"></i> Giới thiệu</a></li>
+              <li><a href="#services"><i class="fas fa-chevron-right"></i> Khóa học</a></li>
+              <li><a href="#doctors"><i class="fas fa-chevron-right"></i> Huấn luyện viên</a></li>
+              <li><a href="#blog"><i class="fas fa-chevron-right"></i> Tin tức</a></li>
+              <li><a href="#contact"><i class="fas fa-chevron-right"></i> Liên hệ</a></li>
+            </ul>
+          </div>
+
+          <!-- Services -->
+          <div class="footer-col">
+            <h4>Khóa học</h4>
+            <ul class="footer-links">
+              <li><a href="#services"><i class="fas fa-chevron-right"></i> Cờ Vua Cơ Bản</a></li>
+              <li><a href="#services"><i class="fas fa-chevron-right"></i> Cờ Vua Nâng Cao</a></li>
+              <li><a href="#services"><i class="fas fa-chevron-right"></i> Khai Cuộc</a></li>
+              <li><a href="#services"><i class="fas fa-chevron-right"></i> Tàn Cuộc</a></li>
+              <li><a href="#services"><i class="fas fa-chevron-right"></i> Cờ Vua Trẻ Em</a></li>
+              <li><a href="#services"><i class="fas fa-chevron-right"></i> Luyện Thi Đấu</a></li>
+            </ul>
+          </div>
+
+          <!-- Working Hours -->
+          <div class="footer-col">
+            <h4>Giờ hoạt động</h4>
+            <div class="footer-hours">
+              <table>
+                <tr>
+                  <td>Thứ 2 – Chủ nhật</td>
+                  <td>8:00 – 20:00</td>
+                </tr>
+              </table>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-phone-alt"></i>
+              <a href="tel:0834636373">0834 636 373</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:info@happychess.vn">info@happychess.vn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2025 Happy Chess - Trung Tâm Cờ Vua. Bảo lưu toàn bộ quyền.</p>
+        <p>Được thiết kế với <i class="fas fa-heart" style="color:#f43f5e;"></i> cho sự phát triển tư duy Việt Nam</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Về đầu trang">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta">
+    <a href="tel:0834636373" class="floating-btn phone-float" aria-label="Gọi điện">
+      <i class="fas fa-phone-alt"></i>
+      <span class="float-pulse"></span>
+    </a>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
