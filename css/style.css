@@ -327,7 +327,7 @@ body {
 /* Age Section */
 .age-section {
     padding: 120px 0;
-    background: url('../section.png') center center / cover no-repeat;
+    background: url('/section.png') center center / cover no-repeat;
     color: #fff;
     text-align: center;
     position: relative;
